@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+p {
+  font-size: medium;
+}
+ul {
+  list-style-type: none;
+}
+
+.temperature {
+  text-align: center;
+}
+.city {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+form {
+  display: block;
+}

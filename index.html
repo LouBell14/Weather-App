@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCPw2 Homework</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <body>
+      <div class="container">
+        <div class="weather-app">
+          <form class="search-form">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="search"
+                  placeholder="Type a city..."
+                  autofocus="on"
+                  autocomplete="off"
+                  id="city-input"
+                  class="form-control"
+                 />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="form-control btn btn-primary"
+                  id="searchCityButton" />
+              </div>
+               <div class="col-3">
+              <input type="Current" 
+              value="Current Location" 
+              class="btn btn-success w-100"
+              id="currentLocationButton"> 
+               </div>
+            </div>
+          </form>
+            <div class="row city">
+            <div class="col-6">
+              <h1 id="city">Sydney </h1>
+              <ul>
+                <p class="date-time"></p>
+          <ul> <p class="today-forecast"> Cloudy</p>
+          </ul>
+          </div>
+          <div class="col-6">
+<div class="temperature">
+  <span class="temperature" id="temp"> 24 </span>
+              <span class="units">
+                <a href="#" id="celsius-link">°C </a>
+                
+            <ul>
+              <p class="precipitation"><span class="bold">Precipitation:</span> 1%</p>
+              <p class="humidity"><span class="bold">Humidity:</span> 60%</p>
+              <p class="wind"><span class="bold">Wind:</span> 21km/h</p>
+              <p class="low"><span class="bold">L:</span> 6°C</p>
+              <p class="high"><span class="bold">H:</span> 18°C</p>
+            </ul>
+          </div>
+          </div>
+     </div>
+ </div>
+ 
+     </div>
+ </div>
+            </div>
+          </div>
+          <script src="src/script.js"></script>  
+  </body>
+</html>
